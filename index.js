@@ -5,7 +5,7 @@ const path = require('path');
 const Port = 8000;
 const app = express();
 
-var myTasks =['pray', 'Learn Japanese', 'eat'];
+var myTasks =[];
 
 
 app.set("view engine", "ejs");
@@ -30,7 +30,6 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const myTask = req.body.newTasks;
   myTasks.push(myTask)
-  console.log(myTask);
   res.redirect("/");
 });
 
