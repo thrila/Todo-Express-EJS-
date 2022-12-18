@@ -9,7 +9,6 @@ then cd into Todo-express-EJS- like so `cd Todo-express-EJS-`<br />
 
 next, run:  ```npm install ```<br />
 
-
 then finally run: `npm start` and open [http://localhost:8000/](http://localhost:8000/)<br />
 
 ---
