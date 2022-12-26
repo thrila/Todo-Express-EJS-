@@ -19,4 +19,7 @@ then finally run: `npm start` and open [http://localhost:8000/](http://localhost
  [body-parser](https://www.npmjs.com/package/body-parser)<br />
  [EJS](https://ejs.co/)<br />
  [Nodemon](https://nodemon.io/)<br />
+ [Mongo](https://www.mongodb.com/)<br />
+ [Mongoose](https://mongoosejs.com/)<br />
+ 
 
